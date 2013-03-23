@@ -3,7 +3,9 @@ Purpose
 
 Sometimes you may want to post a photo to twitter, instagram, Path or other SNS, but if the photo is taken by DSLR, the size of the image file will be too large for uploading. 
 
-So I create a simple OSX service to convert the photo to a smaller one.
+So I create a simple OSX service to convert the photo to a smaller one. The width of the converted image will be 1024.
+
+This service won't alter your original image, it creates a copy of your existing image.
 
 Installation
 ----
