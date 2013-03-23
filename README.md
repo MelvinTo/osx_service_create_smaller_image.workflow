@@ -12,7 +12,7 @@ Installation
 1. Clone the project
 2. Double-click the project to install the service.
 
-The project folder will be copied to folder **~/Library/Services**
+The project folder will be automatically copied to folder **~/Library/Services**
 
 Usage
 ----
