@@ -14,7 +14,7 @@ The project folder will be copied to folder **~/Library/Services**
 
 Usage
 ----
-1. Select the image file in Finder
+1. Select any image file in Finder
 2. Click menu "Finder"->"Services"->"Create a smaller image copy"
 
 You can add keyboard shortcut for this service in Keyboard Preference Panel.
