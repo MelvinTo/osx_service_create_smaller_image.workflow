@@ -61,8 +61,25 @@
 					<key>COMMAND_STRING</key>
 					<string>for f in "$@"
 do
+    # fine a valid filename
+    filename=`echo $f | sed 's/^\(.*\)\.\([^\.]*\)$/\1/'`
+    ext=`echo $f | sed 's/^\(.*\)\.\([^\.]*\)$/\2/'`
+	f_copy=${filename}_small.$ext
+
+    for i in `seq 1 100`; do
+        if [[ -e $f_copy ]]; then
+            f_copy=${filename}_small_$i.$ext
+        else
+            break
+        fi
+    done
+    
+    # give up if failing to find a valid name after trying 100 times.
+    if [[ -e $f_copy ]]; then
+        exit 0
+    fi
+
 	# create a copy of original file
-	f_copy=`echo $f | sed 's/^\(.*\)\.\([^\.]*\)$/\1_small.\2/'`
 	cp $f $f_copy
 
 	# convert to a smaller image with width 1024 
@@ -177,12 +194,10 @@ done</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.500000:554.000000</string>
+				<string>348.500000:593.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>

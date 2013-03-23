@@ -10,6 +10,8 @@ Installation
 1. Clone the project
 2. Double-click the project to install the service.
 
+The project folder will be copied to folder ~/Library/Services'
+
 Usage
 ----
 1. Select the image file in Finder
@@ -19,4 +21,4 @@ You can add keyboard shortcut for this service in Keyboard Preference Panel.
 
 Note
 ----
-This service uses a OSX builtin command line tool "sips" to do the convertion.
+This service uses a OSX builtin command line tool "sips" to do the conversion.
