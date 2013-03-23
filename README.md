@@ -1,7 +1,7 @@
 Description
 -----
 
-Sometimes you may want to post a photo to twitter or PATH, but if the photo is taken by DSLR, the size of the image file will be too large for uploading. 
+Sometimes you may want to post a photo to twitter, instagram, Path or other SNS, but if the photo is taken by DSLR, the size of the image file will be too large for uploading. 
 
 So I create a simple OSX service to convert the photo to a smaller one.
 
