@@ -19,6 +19,9 @@ Usage
 1. Select any image file in Finder
 2. Click menu "Finder"->"Services"->"Create a smaller image copy"
 
+ ![image](http://d1zjcuqflbd5k.cloudfront.net/files/acc_113533/DhHX?response-content-disposition=inline;%20filename=Screen%20Shot%202013-03-24%20at%201.56.45%20PM.png;%20filename*=UTF-8%27%27Screen%20Shot%202013-03-24%20at%201.56.45%20PM.png&Expires=1364105167&Signature=Cc8pWd~w-O1k2w9FFrKET5Yqh9xvRgA7LBa9MVvxm~afg343PELZrVlni65PTFzjp33XGSloqy44DCeiiW9p0VMmofbaBgz9XHsKDK~b-nfAAS9cZ5MoNy2x0XcLVXQOk13Uie2yH1RpyGNMLy1dlBSvwtzQ~5zpOMTdEjv0Jyg_&Key-Pair-Id=APKAJTEIOJM3LSMN33SA)
+
+
 You can add keyboard shortcut for this service in Keyboard Preference Panel.
 
 Note
